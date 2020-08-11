@@ -12,7 +12,7 @@ public class LogicalOperatorLoanQualifier {
 
         //Initialize what we know
         int salaryMinimum = 30000;
-        int minimunYearsWorked = 2;
+        int minimumYearsWorked = 2;
 
         //Get what we don't know
         System.out.println("What is your salary?");
@@ -22,7 +22,7 @@ public class LogicalOperatorLoanQualifier {
         double yearsWorked = scanner.nextDouble();
 
         //Make decision
-        if (salary >= salaryMinimum && yearsWorked >= minimunYearsWorked) {
+        if (salary >= salaryMinimum && yearsWorked >= minimumYearsWorked) {
             System.out.println("You are eligible for a loan! Congrats!");
         } else{
             System.out.println("Sorry you do not meet the requirements to qualify.");
