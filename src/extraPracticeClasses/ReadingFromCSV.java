@@ -9,6 +9,7 @@ public class ReadingFromCSV {
 
     public static void main(String[] arg){
         //Simple test to see that the value we got from the file matches what we expect
+        //https://support.spatialkey.com/spatialkey-sample-csv-data/ << practice website to download csv files from
         getRowsFromFile().get(6).get(5).equals("530.5 PC USE PERSONAL ID INFO");
     }
 
