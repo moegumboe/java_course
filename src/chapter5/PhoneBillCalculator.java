@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class PhoneBillCalculator {
     static Scanner scanner = new Scanner(System.in);
     public static void main(String args[]){
-        //get the total of someones bill
+        //get the total of someone's bill
         double bill = getBill();
 
         //charge for going over
