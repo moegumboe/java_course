@@ -27,12 +27,20 @@ public class ReadingFromExcel {
             XSSFWorkbook workbook = new XSSFWorkbook(fis);
             XSSFSheet sheet = workbook.getSheetAt(0);
 
-            for (int i = 0; i <= sheet.getRow(0).getPhysicalNumberOfCells(); i++) {
+            for (int i = 0; i < sheet.getRow(0).getPhysicalNumberOfCells(); i++) {
                 //for each row create a new list
                 List<String> tempList = new ArrayList<>();
-                for (int j = 0; j < sheet.getLastRowNum(); j++) {
+                for (int j = 0; j < sheet.getRow(0).getPhysicalNumberOfCells(); j++) {
                     //for each row iterate through the columns and create a list
-                    tempList.add(sheet.getRow(i).getCell(j).getStringCellValue());
+                    if (!(sheet.getRow(i).getCell(j) == null)){
+                        if(sheet.getRow(i).getCell(j).getCellType().name().equals("NUMERIC")){
+                            tempList.add(Double.toString(sheet.getRow(i).getCell(j).getNumericCellValue()));
+                        }else{
+                            tempList.add(sheet.getRow(i).getCell(j).getStringCellValue());
+                        }
+                    }else {
+                        tempList.add("");
+                    }
                 }
                 records.add(i, tempList);
                 System.out.println(records.get(i));
