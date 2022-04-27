@@ -27,7 +27,7 @@ public class ReadingFromExcel {
             XSSFWorkbook workbook = new XSSFWorkbook(fis);
             XSSFSheet sheet = workbook.getSheetAt(0);
 
-            for (int i = 0; i < sheet.getRow(0).getPhysicalNumberOfCells(); i++) {
+            for (int i = 0; i < sheet.getPhysicalNumberOfRows(); i++) {
                 //for each row create a new list
                 List<String> tempList = new ArrayList<>();
                 for (int j = 0; j < sheet.getRow(0).getPhysicalNumberOfCells(); j++) {
