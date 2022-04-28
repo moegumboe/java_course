@@ -13,7 +13,7 @@ public class MyFrame extends JFrame {
         myButton.addActionListener(
             (e) -> System.out.println("You clicked the first button"));
 
-        myButton2.setBounds(50,100,100,50);
+        myButton2.setBounds(200,50,100,50);
         myButton2.addActionListener(
             (e) ->System.out.println("You clicked the second button"));
 

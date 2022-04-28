@@ -1,0 +1,14 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_4_27_2022_9_38_PM_[Changes]1" date="1651113508120" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_27_2022_9_38_PM_[Changes]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 4/27/2022 9:38 PM [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/java_course/LambdaPractice/WellWisher.class" />
+    <option name="AFTER_PATH" value="out/production/java_course/LambdaPractice/WellWisher.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_27_2022_9_38_PM_[Changes]1/WellWisher.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/java_course/LambdaPractice/MyFrame.class" />
+    <option name="AFTER_PATH" value="out/production/java_course/LambdaPractice/MyFrame.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_4_27_2022_9_38_PM_[Changes]1/MyFrame.class" />
+  </binary>
+</changelist>
