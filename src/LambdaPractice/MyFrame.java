@@ -9,11 +9,11 @@ public class MyFrame extends JFrame {
 
     MyFrame(){
 
-        myButton.setBounds(100,100,200,100);
+        myButton.setBounds(50,50,100,50);
         myButton.addActionListener(
             (e) -> System.out.println("You clicked the first button"));
 
-        myButton2.setBounds(100,200,200,100);
+        myButton2.setBounds(200,50,100,50);
         myButton2.addActionListener(
             (e) ->System.out.println("You clicked the second button"));
 
