@@ -1,4 +1,4 @@
-package LambdaPractice;
+package LambdaPractice.First_Lambda_Practice;
 
 import javax.swing.*;
 

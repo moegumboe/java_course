@@ -1,4 +1,4 @@
-package LambdaPractice;
+package LambdaPractice.First_Lambda_Practice;
 
 @FunctionalInterface
 public interface MyInterface {
