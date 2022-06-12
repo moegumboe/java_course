@@ -1,4 +1,4 @@
-package ImageProject;
+package CodecademyClassProject;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
